@@ -8,10 +8,11 @@ import requests.packages.urllib3
 
 requests.packages.urllib3.disable_warnings()
 
-cvp1 = "10.18.170.194"  # ACT instance
+cvp1 = "192.168.0.5"
+# cvp1 = "10.18.170.194"  # ACT instance
 
-cvp_user = "ansible"
-cvp_pw = "ansible"
+cvp_user = "arista"
+cvp_pw = "19mhl04m4jcgknna"
 
 
 clnt = CvpClient()

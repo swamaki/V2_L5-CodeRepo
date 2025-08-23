@@ -1,0 +1,9 @@
+---
+- name: Delete VLANs from device(s)
+  hosts: leafs
+  tasks:
+    - name: Delete VLAN 10
+      arista.eos.eos_vlans:
+        config:
+          - vlan_id: 10
+        state: deleted

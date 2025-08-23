@@ -8,12 +8,13 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
-cvp1 = "10.18.170.194"  # ACT instance
+cvp1 = "192.168.0.5"
+# cvp1 = "10.18.170.194"  # ACT instance
 # For an on-prem production environemt, you would list two more CVP nodes
 # cvp2 = ""
 # cvp3 = ""
-cvp_user = "ansible"
-cvp_pw = "ansible"
+cvp_user = "arista"
+cvp_pw = "19mhl04m4jcgknna"
 
 client = cvp_client.CvpClient()
 
