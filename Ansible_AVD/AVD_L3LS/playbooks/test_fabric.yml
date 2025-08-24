@@ -1,6 +1,19 @@
 - name: Run Fabric states validation
   hosts: FABRIC
   tasks:
-    - name: Deploy configuration to device
+    # - name: Deploy configuration to device
+    #   ansible.builtin.import_role:
+    #     name: arista.avd.eos_validate_state
+    - name: Validate Deployment
+      tags:
+        - validate
+      # import_role:
+      #   name: arista.avd.eos_validate_state
       ansible.builtin.import_role:
         name: arista.avd.eos_validate_state
+      vars:
+        save_catalog: true
+        # skip_tests:
+        #   - category: AvdTestNTP
+        #     tests:
+        #       - VerifyNTP

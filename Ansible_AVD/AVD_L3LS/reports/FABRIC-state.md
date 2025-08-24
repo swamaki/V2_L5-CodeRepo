@@ -14,7 +14,7 @@
 
 | Total Tests | Total Tests Passed | Total Tests Failed |
 | ----------- | ------------------ | ------------------ |
-| 325 | 324 | 1 |
+| 325 | 325 | 0 |
 
 ### Summary Totals Devices Under Tests
 
@@ -27,13 +27,13 @@
 | spine1 |  23 | 23 | 0 | - |
 | spine2 |  23 | 23 | 0 | - |
 | spine3 |  23 | 23 | 0 | - |
-| spine4 |  23 | 22 | 1 | NTP |
+| spine4 |  23 | 23 | 0 | - |
 
 ### Summary Totals Per Category
 
 | Test Category | Total Tests | Tests Passed | Tests Failed |
 | ------------- | ----------- | ------------ | ------------ |
-| NTP |  8 | 7 | 1 |
+| NTP |  8 | 8 | 0 |
 | Interface State |  93 | 93 | 0 |
 | LLDP Topology |  40 | 40 | 0 |
 | MLAG |  4 | 4 | 0 |
@@ -46,7 +46,6 @@
 
 | Test ID | Node | Test Category | Test Description | Test | Test Result | Failure Reason |
 | ------- | ---- | ------------- | ---------------- | ---- | ----------- | -------------- |
-| 8 | spine4 | NTP | Synchronised with NTP server | NTP | FAIL | Not synchronised to NTP server |
 
 ## All Test Results
 
@@ -59,7 +58,7 @@
 | 5 | spine1 | NTP | Synchronised with NTP server | NTP | PASS | - |
 | 6 | spine2 | NTP | Synchronised with NTP server | NTP | PASS | - |
 | 7 | spine3 | NTP | Synchronised with NTP server | NTP | PASS | - |
-| 8 | spine4 | NTP | Synchronised with NTP server | NTP | FAIL | Not synchronised to NTP server |
+| 8 | spine4 | NTP | Synchronised with NTP server | NTP | PASS | - |
 | 9 | leaf1 | Interface State | Ethernet Interface & Line Protocol == "up" | Ethernet1 - MLAG_PEER_leaf2_Ethernet1 | PASS | - |
 | 10 | leaf1 | Interface State | Ethernet Interface & Line Protocol == "up" | Ethernet2 - MLAG_PEER_leaf2_Ethernet2 | PASS | - |
 | 11 | leaf1 | Interface State | Ethernet Interface & Line Protocol == "up" | Ethernet3 - P2P_LINK_TO_SPINE1_Ethernet3 | PASS | - |

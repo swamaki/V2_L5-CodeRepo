@@ -6,7 +6,7 @@ test_id,node,test_category,test_description,test,result,failure_reason
 5,spine1,NTP,Synchronised with NTP server,NTP,PASS,
 6,spine2,NTP,Synchronised with NTP server,NTP,PASS,
 7,spine3,NTP,Synchronised with NTP server,NTP,PASS,
-8,spine4,NTP,Synchronised with NTP server,NTP,FAIL,Not synchronised to NTP server
+8,spine4,NTP,Synchronised with NTP server,NTP,PASS,
 9,leaf1,Interface State,Ethernet Interface & Line Protocol == "up",Ethernet1 - MLAG_PEER_leaf2_Ethernet1,PASS,
 10,leaf1,Interface State,Ethernet Interface & Line Protocol == "up",Ethernet2 - MLAG_PEER_leaf2_Ethernet2,PASS,
 11,leaf1,Interface State,Ethernet Interface & Line Protocol == "up",Ethernet3 - P2P_LINK_TO_SPINE1_Ethernet3,PASS,

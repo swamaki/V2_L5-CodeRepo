@@ -43,6 +43,7 @@ CVP_DEVICES_MLAG:
       - 'MLAG_Right'
 
 #---------------------------
+
 CVP_DEVICES_DEFAULT:
   - fqdn: 'leaf1'
     parentContainerName: 'Leaf'
